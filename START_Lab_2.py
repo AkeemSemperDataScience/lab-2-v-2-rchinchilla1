@@ -4,6 +4,15 @@ def lab2Question1(word):
     # Create a function that takes in a string 
     # Return True if that string is a palindrome, False otherwise
     pass
+#Define a function.
+def isPalindrome(string):
+    if (string == string[::-1]) :
+        return ("The string is a palidrome")
+    else:
+        return ("The string is not a palidrome")
+#Enter input string.
+string = input ("Enter string: ")
+print(isPalindrome(string))
 
 def lab2Question2(number_val):
     # Create a function that takes in a number
